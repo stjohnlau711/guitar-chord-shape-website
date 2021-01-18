@@ -14,6 +14,24 @@ export const ChordItems = [
         '/images/Minor/minor4.png']
     },
     {
+        title: 'Diminished',
+        url: 'diminished',
+        cName: 'chord-links',
+        images: ['/images/Diminished/diminished1.png', '/images/Diminished/diminished2.png', '/images/Diminished/diminished3.png']
+    },
+    {
+        title: 'Major 6',
+        url: 'major6',
+        cName: 'chord-links',
+        images: ['/images/Major6/major61.png', '/images/Major6/major62.png', '/images/Major6/major63.png']
+    },
+    {
+        title: 'Minor 6',
+        url: 'minor6',
+        cName: 'chord-links',
+        images: ['/images/Minor6/minor61.png', '/images/Minor6/minor62.png', '/images/Minor6/minor63.png']
+    },
+    {
         title: 'Major 7',
         url: 'major7',
         cName: 'chord-links',
@@ -35,6 +53,20 @@ export const ChordItems = [
         cName: 'chord-links',
         images: ['/images/Dominant7/dominant71.png', '/images/Dominant7/dominant72.png', '/images/Dominant7/dominant73.png',
         '/images/Dominant7/dominant74.png', '/images/Dominant7/dominant75.png', '/images/Dominant7/dominant76.png',]
+    },
+    {
+        title: 'Dim7 (Half)',
+        url: 'diminished7half',
+        cName: 'chord-links',
+        images: ['/images/Diminished7Half/dim7half1.png', '/images/Diminished7Half/dim7half2.png', '/images/Diminished7Half/dim7half3.png'
+    , '/images/Diminished7Half/dim7half4.png', '/images/Diminished7Half/dim7half5.png']
+    },
+    {
+        title: 'Dim7 (Full)',
+        url: 'diminished7full',
+        cName: 'chord-links',
+        images: ['/images/Diminished7Full/dim7full1.png', '/images/Diminished7Full/dim7full2.png', '/images/Diminished7Full/dim7full3.png'
+    , '/images/Diminished7Full/dim7full4.png', '/images/Diminished7Full/dim7full5.png']
     },
     {
         title: 'Major 9',

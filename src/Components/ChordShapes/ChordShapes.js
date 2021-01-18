@@ -15,7 +15,7 @@ function ChordShapes({match}) {
         {ChordItems.map((item, index) => {
           return (
             <li key={index}>
-              <Link to ={`${match.url}/${item.url}`} >
+              <Link to ={`${match.url}/${item.url}`} style={{ textDecoration: 'none' }} >
                 <a className={item.cName}>
                   {item.title}
                 </a>
