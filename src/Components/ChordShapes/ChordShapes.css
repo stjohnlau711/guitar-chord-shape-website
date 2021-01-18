@@ -1,0 +1,52 @@
+.ChordShapes {
+    display: flex ;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5rem 10%;
+  }
+
+.Title {
+  font-size: 3rem;
+  color: #4FB0D2;
+}
+
+.Note {
+  text-align: center;
+}
+
+.Chords {
+    display: flex ;
+    list-style: none;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 5rem 10%;
+}
+
+.chord-links {
+    color: #ECECEC;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #4FB0D2;
+    border-radius: 4px;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 16.66rem;
+    margin: 0 .5rem 2.3rem .5rem;
+}
+
+.chord-links:hover {
+    background-color: #398FAE;
+    transition: all 0.2s ease-out;
+}
+@media only screen and (max-width: 960px) {
+    .ChordShapes {
+      display: flex ;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 4rem 10%;
+    }
+
+}

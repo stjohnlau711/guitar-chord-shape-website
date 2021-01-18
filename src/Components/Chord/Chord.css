@@ -1,0 +1,40 @@
+.Chord {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem 10%;
+  }
+
+.Title {
+    font-size: 3rem;
+    color: #4FB0D2;
+}
+
+mark.red {
+    color:#D0021B;
+    background: none;
+}
+
+mark.move {
+    color: #D0021B;
+    background: none;
+    font-weight: bold;
+}
+
+.image-container {
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    height: 27rem;
+    border: 10px solid #4FB0D2;
+    justify-content: space-around;
+    position: relative;
+}
+
+.image-container .voicing {
+    text-align: center;
+}
+
+.shape {
+    width: 250px;
+}
