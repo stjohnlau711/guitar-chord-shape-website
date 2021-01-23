@@ -10,7 +10,7 @@ function Chord ({match}) {
             <h1 className = "Title">{shape.title}</h1>
             <h3 className = "Note">NOTE: The <mark class="red">red notes</mark> with R indicate the root of the chord,
             meaning you can move these shapes around the neck as long as you know what note you're playing at the root.
-            You can also excluse some notes which create the same chord, just with a different voicing. 
+            You can also exclude some notes which create the same chord, just with a different voicing. 
              <mark class="move"> ALL THESE SHAPES ARE MOVEABLE ACROSS THE NECK</mark>
             </h3>
             <ul className="Chords"> 
