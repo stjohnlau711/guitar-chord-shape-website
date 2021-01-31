@@ -13,13 +13,13 @@ The React Router structure is pretty standard, and the benefits of using React f
 
 What this means is that I each page for each chord shape follows the `Chord.js` structure, and the information displayed on the change depends on the corresponding data inside `ChordItems.js`. For example, the first item in `ChordItems.js` looks like this: 
 
-'{
+`{
         title: 'Major',
         url: 'major',
         cName: 'chord-links',
         images: ['/images/Major/major1.png', '/images/Major/major2.png', '/images/Major/major3.png'
     ,'/images/Major/major4.png', '/images/Major/major5.png', '/images/Major/major6.png']
-    }'
+    }`
     
 So the title of the page is denoted by `title: 'Major'`, the url by `url: 'major'`, and the images of the chord shapes by `images: ['/images/Major/major1.png', '/images/Major/major2.png', '/images/Major/major3.png','/images/Major/major4.png', '/images/Major/major5.png', '/images/Major/major6.png']`. So, if I wanted to add a new chord shape, I wouldn't need to create a new HTML page. All I would have to do is go into `ChordItems.js`, add a new object to the array in that structure, and that's it.
 
