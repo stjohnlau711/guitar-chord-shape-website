@@ -1,6 +1,6 @@
 # Guitar Chord Shapes Website
 
-### This is the source code for my Guitar Chord Shapes website hosted on www.guitarchordshapes.com
+### This is the source code for my Guitar Chord Shapes website hosted on www.guitarchordshape.com
 
 It is a React website utilizing React Routers and React Components features to create an easily editable website.
 
